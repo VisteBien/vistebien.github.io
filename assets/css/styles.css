@@ -116,7 +116,7 @@ body {
 
 header {
   margin-top: 10rem;
-  background-color: var(--primary-color);
+ 
 }
 
 .header__container {
@@ -145,7 +145,11 @@ header {
 }
 
 .header__image {
-  position: relative;
+  position:absolute; /* o absolute, fixed, sticky, etc. */
+  top: 20px;
+  left: 700px;
+  bottom: 120px;
+  right: 20px;
 }
 
 .header__image img {
