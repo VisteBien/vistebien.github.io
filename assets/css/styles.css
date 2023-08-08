@@ -166,6 +166,16 @@ header {
 
 }
 
+.Cartago2 {
+  display: inline-block;
+  background-color: #020202;
+  justify-self: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 13px 30px;
+  border-radius: 32px;
+}
+
 .collection__container {
   position: relative;
 }
